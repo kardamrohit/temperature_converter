@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(124deg, #2F4F2F, #4f5557);
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#heading{
+    text-align: center;
+    font-size: 2rem;
+    color: #040504;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    position:absolute;
+    margin: 5% 20% 0 20%;
+    width: 70%;
+    height: 250px;
+    background-color: #f7f7f7;
+    border: 5px solid #000000;
+border-radius: 10px;
+background:gray;
+}
+#calculator{
+    position: relative;
+    text-align: center;
+    display: flex;
+    width: 80%;
+    margin: 4.5% 12% 0 12% ;
+    height: 50%;
+}
+#it{
+    display: inline-block;
+    width: 65%;
+    padding-top: 4px;
+}
+#inputtemp{
+    background-color: #A8AEA8;
+    color: #2F4F2F;
+    width: 80%;
+    height: 2rem;
+    border:1px solid #3c4043;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#temperature{
+    color: #2F4F2F;
+    background-color: #A8AEA8;
+    width: 75%;
+    height: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 10%;
+    border:1px solid #3c4043;
+}
+#outtemp{
+    border: solid #C6BFBE;
+    background-color: #A8AEA8;
+    color: #2F4F2F;
+    width: 80%;
+    height: 2rem;
+    border:1px solid #3c4043;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#finaltemp{
+    position:static;
+    width: 75%;
+    border:1px solid #3c4043;
+    background-color: #A8AEA8;
+    height: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 10% 4% 0 10.8%;
+}
+#temmp{
+    color: #525652;
+    margin-top: 3.4%;
+}
+#calculate{  
+    background-color: #39a04d;
+    color: rgb(0, 0, 0);
+    height: 17%;
+    width: 30%;
+    margin: 1% 35% 0 35%;
+    font-size: 1.4rem;
+    border-radius: 12px;
+}
